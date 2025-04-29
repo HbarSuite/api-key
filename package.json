@@ -13,7 +13,8 @@
         "@nestjs/core": "^10.4.2"
     },
     "dependencies": {
-        "@hsuite/users": "2.0.0"
+        "@hsuite/users": "^2.0.0",
+        "@hsuite/helpers": "^2.0.0"
     },
     "devDependencies": {
         "@compodoc/compodoc": "^1.1.23"

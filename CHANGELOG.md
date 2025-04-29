@@ -11,3 +11,7 @@ All notable changes to this project will be documented in this file.
 
 - Modified: package.json
 - Modified: src/api-key.service.ts
+
+## [2.0.0] - 2025-04-29
+
+- Modified: package.json
