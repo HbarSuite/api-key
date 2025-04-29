@@ -17,5 +17,10 @@
     },
     "devDependencies": {
         "@compodoc/compodoc": "^1.1.23"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HbarSuite/api-key.git",
+        "directory": "libs/api-key"
     }
 }

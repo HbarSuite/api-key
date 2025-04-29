@@ -1,5 +1,6 @@
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { User, UserDocument, UserModelService } from '@hsuite/users';
+import { LoggerHelper } from '@hsuite/helpers';
 
 /**
  * Service responsible for API key operations and validation.
@@ -25,8 +26,11 @@ import { User, UserDocument, UserModelService } from '@hsuite/users';
  */
 @Injectable()
 export class ApiKeyService {
-    /** Logger instance for API key-related operations */
-    protected logger: Logger = new Logger("ApiKeyService");
+    /**
+     * Logger instance for API key-related operations
+     * @type {LoggerHelper}
+     */
+    protected logger: LoggerHelper = new LoggerHelper(ApiKeyService.name);
 
     /**
      * Creates an instance of ApiKeyService.
